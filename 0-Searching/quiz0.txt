@@ -1,0 +1,19 @@
+Q1) BFS will sometimes, but not always, find a shorter path than DFS
+
+As if the cost not equal then BFS will produces some wrong ans like shortest path in graph with different cost
+per edge in this case bfs not generated optimal answer and we need an algorithm like dijkstra.
+
+Q2) DFS ONLY
+
+all other types should at least make one red cell more.
+dfs could take any path it like
+
+Q3) Depth-limited minimax can arrive at a decision more quickly because it explores fewer states
+
+this is the only sure thing cause the not limited have the optimal answer always but the limited not always
+optimal so it's not preferable in all cases and somecases is perferable like chess 
+
+Q4) 5
+
+because the red try to minize the ans so {5,1,2} is the set for the root to choose from and it chooses 5 cause 
+it is the bigger one.
